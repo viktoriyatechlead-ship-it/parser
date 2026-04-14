@@ -1,0 +1,13 @@
+{
+  "name": "breedworld-parser",
+  "version": "1.0.0",
+  "description": "OCR parser for dog pedigree screenshots from ZooPortal → XLSX",
+  "main": "vision-ocr.js",
+  "scripts": {
+    "parse": "node vision-ocr.js",
+    "test": "node vision-ocr.js --dir ./test-screenshots --output ./test-output.xlsx"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
